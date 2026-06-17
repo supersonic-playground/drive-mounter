@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Drive Mounter
+Comment=Mount SFTP/SSH drives easily
+Exec=drive-mounter
+Icon=folder-remote
+Terminal=false
+Categories=Network;FileTransfer;System;
+Keywords=sftp;ssh;sshfs;mount;remote;drive;
+StartupNotify=false

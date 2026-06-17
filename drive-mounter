@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+"""Launcher for Drive Mounter — runs the package from this repo or an install."""
+
+import os
+import sys
+
+# Allow running directly from the source checkout.
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+from drive_mounter.app import main
+
+if __name__ == "__main__":
+    sys.exit(main())
